@@ -155,6 +155,8 @@ button,input{color:inherit;font:inherit}button{border:0;background:none;cursor:p
 }
 
 @media (max-width:800px){
+    .map-marker.is-selected{transform:translate(-50%,-50%) scale(1.75);box-shadow:rgba(0,0,0,.28) 0 3px 7px}
+    .map-marker.is-selected>span{font-size:16px}
     .main-panel{height:350px}
     .main-panel.is-collapsed{transform:translateY(calc(100% - 2px))}
     .main-panel.is-list-only,.main-panel.is-detail-open{height:350px}
